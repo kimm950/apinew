@@ -23,7 +23,7 @@ function Shop() {
     <div>
       {items.map(item => (
         <h1 key={item.itemid}>
-          <Link to={"/shop/${itme.itemid}"}>{item.name}</Link>
+          <Link to={`/shop/${item.itemid}`}>{item.name}</Link>
         </h1>
       ))}
     </div>
